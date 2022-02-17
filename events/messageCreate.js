@@ -26,7 +26,7 @@ module.exports = {
 			if (message.content.startsWith('d!')) {
 				message.reply('Dolphin Discord Bot no longer uses `d!` as a prefix, try `/` instead.'); // TODO make both work because we can ;)
 			} else if (message.content.toLowerCase().search('dead chat') >= 0) {
-				message.reply('Go outside.');
+				message.reply('GO OUTSIDE, FOOL!');
 			} else {
 				for (const reg of piracy_regexes) {
 					if (message.content.search(reg) >= 0) {
